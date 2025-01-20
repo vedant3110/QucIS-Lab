@@ -1,0 +1,117 @@
+#mainheading{
+    font-size: 4em;
+    font-weight: 400;
+    font-family:monospace;
+    text-decoration-color: aqua ;
+}
+body{
+    background-color: #f2f2f2;
+    text-align: center;
+    object-position: center;
+}
+/* Container for the entire form */
+
+#Add_value {
+    display: flex;
+    flex-direction: column; /* Stack the entire form vertically */
+    margin-top: 8vw;
+    margin-left: 40vw;
+    gap: 20px;
+    text-align: left; /* Space between each set of label-input pair */
+}
+
+/* Styling for each label-input set */
+#style_label_1, #style_label_2, #style_label_3, #style_label_4,#style_label_5{
+    display: flex;
+    flex-direction: row; /* Stack label and input vertically */
+    gap: 4px; /* Space between label and input */
+}
+#delta,#beta,#ti,#tf,#gamma {
+    width: 200px;
+    padding: 2px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+#time_button {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    font-size: 16px; /* Slightly larger text */
+    padding: 8px 10px; /* Bigger padding for a larger button */
+    border: none; /* No border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+    width: 200px;
+    margin-left: 4vw;
+}
+#time_button:hover {
+    background-color: #45a049; /* Darker green on hover */
+    transform: scale(1.05); /* Slightly bigger on hover */
+}
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: white;
+    width: 350px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #ddd;
+}
+
+.modal-header button {
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.modal-body {
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+.modal-body img {
+    max-width: 100%;
+    max-height: 400px;
+    height: auto;
+    width: auto;
+}
+
+.modal-footer {
+    padding: 10px;
+    text-align: center;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+}
+
+.modal-footer button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.modal-footer button:hover {
+    background-color: #0056b3;
+}
+

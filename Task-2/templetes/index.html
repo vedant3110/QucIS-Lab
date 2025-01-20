@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style_task_2.css">
+</head>
+<body>
+    
+    <h1 id="mainheading" >Qubit Dynamics 0.1</h1>
+    <label for="dropdown">Choose a system:</label>
+    <select id="dropdown" onchange="buttons()">
+        <option value="select">--select--</option>
+        <option value="Free">Free-Evolving Qubit </option>
+        <option value="Rabi">Rabi Oscillations</option>
+        <option value="Driven">Driven Qubit with Detuning</option>
+    </select>
+    <div id="Add_value"></div>
+    <div class="modal" id="myModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button onclick="closeModal()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <img id="modalImage" src="" alt="Loading...">
+            </div>
+            <div class="modal-footer">
+                <button onclick="Save_img()">Save</button>
+            </div>
+        </div>
+    </div>
+
+   
+    
+    <script src="script_task_2.js"></script>
+</body>
+</html>

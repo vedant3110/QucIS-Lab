@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style_task_1.css">
+</head>
+<body>
+    
+    <h1 id="mainheading" >Circuit Visualizer 0.1</h1>
+    <div id="Qubit_text">
+        <label for="Qubits">Enter the number of qubit:</label>
+        <input type="number" id="Qubits"><br>
+        <label for="Co_qubits">Enter the number of control qubit:</label>
+        <input type="number" id="Co_qubits"><br><br>
+    </div>
+    <button id="Submit"onclick="Submit_qubit()">Submit</button>
+    <hr>
+    <br>
+    <p id="text_container"></p>
+    <div id="Add_elements"></div>
+    <div id="Add_gate"></div>
+    <div id="buttons"></div>
+    <div class="modal" id="myModal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button onclick="closeModal()">&times;</button>
+            </div>
+            <div class="modal-body">
+                <img id="modalImage" src="" alt="Placeholder Image">
+            </div>
+            <div class="modal-footer">
+                <button onclick="Save_img()">Save</button>
+            </div>
+        </div>
+    </div>
+   
+    
+    <script src="script_task_1.js"></script>
+</body>
+</html>

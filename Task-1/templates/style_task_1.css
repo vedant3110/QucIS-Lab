@@ -1,0 +1,180 @@
+#mainheading{
+    font-size: 4em;
+    font-weight: 400;
+    font-family:monospace;
+    text-decoration: underline;
+    text-decoration-color: aqua ;
+}
+#Submit{
+    background-color: #C0C0C0; /* Green background */
+    color: black; /* White text */
+    font-size: 14px; /* Slightly larger text */
+    padding: 6px 12px; /* Bigger padding for a larger button */
+    border: none; /* No border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+}
+#Submit:hover {
+    background-color: #F8F8F8; /* Darker green on hover */
+    transform: scale(1.05); /* Slightly bigger on hover */
+}
+#Qubit_text{
+    font-size: large;
+}
+
+body{
+    background-color: #f2f2f2;
+    text-align: center;
+    object-position: center;
+}
+#text_container{
+    font-weight: bold; 
+    color: blue;
+    
+} 
+.Operator{
+    display:flex;
+    margin-left: 28vw;
+    align-items: center;
+    gap: 20px;
+    font-size:medium;
+}
+#drop_down {
+    margin-left: 28vw;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #fff;
+    width: 150px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    max-height: 200px;
+    overflow-y: auto;
+}
+#displayBox {
+    width: 500px;
+    height: 200px;
+    border: 2px solid #ffffff; /* Green border for a modern look */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Soft shadow */
+    overflow-y: scroll; /* Maintain scrolling functionality */
+    margin-left: 56vw; /* Keep the horizontal positioning */
+    margin-bottom: 1vw;
+    background-color: #f9f9f9; /* Light background for contrast */
+    padding: 2px; /* Add padding inside the box */
+    font-family: 'Arial', sans-serif; /* Modern font for content */
+    color: #333; /* Dark text for readability */
+    font-family: "Courier New", Courier, "Lucida Console", Monaco, "Source Code Pro", monospace;
+    font-weight: bold;
+}
+
+#style_label_1 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start; 
+    margin-left: 28vw;
+    gap: 5px;
+}
+.Target_style, .Control_style, .arg_style, .Classical_style {
+    margin-right: 1vw;
+}
+#style_button_1 {
+    display: flex;
+    justify-content: center;  /* Centers buttons horizontally */
+    gap: 60px;
+    margin-top: 40px;  /* Adds space between buttons */
+}
+#Add_button {
+    background-color: #4CAF50; /* Green background */
+    color: white; /* White text */
+    font-size: 18px; /* Slightly larger text */
+    padding: 12px 24px; /* Bigger padding for a larger button */
+    border: none; /* No border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+}
+#Add_button:hover {
+    background-color: #45a049; /* Darker green on hover */
+    transform: scale(1.05); /* Slightly bigger on hover */
+}
+#plot_button{
+    background-color: #f44336; /* Green background */
+    color: white; /* White text */
+    font-size: 18px; /* Slightly larger text */
+    padding: 12px 24px; /* Bigger padding for a larger button */
+    border: none; /* No border */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+}
+#plot_button:hover {
+    background-color: #e53935; /* Darker green on hover */
+    transform: scale(1.05); /* Slightly bigger on hover */
+}
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background-color: white;
+    width: 350px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    overflow: hidden;
+}
+
+.modal-header {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    background-color: #f5f5f5;
+    border-bottom: 1px solid #ddd;
+}
+
+.modal-header button {
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.modal-body {
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+.modal-body img {
+    max-width: 100%;
+    max-height: 400px;
+    height: auto;
+    width: auto;
+}
+
+.modal-footer {
+    padding: 10px;
+    text-align: center;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+}
+
+.modal-footer button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.modal-footer button:hover {
+    background-color: #0056b3;
+}
+
+
